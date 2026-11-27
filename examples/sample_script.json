@@ -1,0 +1,107 @@
+{
+  "episode_id": "ep01_lantern_night",
+  "title": "The Little Lantern Walk",
+  "recap_title": "Key Phrases Tonight",
+  "bgm": "audio/bgm.wav",
+  "voices": {
+    "Narrator": {
+      "voice": "Vindemiatrix",
+      "style": "Warm, gentle bedtime storyteller speaking slowly and clearly."
+    },
+    "Fox": {
+      "voice": "Achird",
+      "style": "Curious, friendly young fox voice with bright articulation."
+    },
+    "Owl": {
+      "voice": "Enceladus",
+      "style": "Calm, wise owl mentor voice with soothing evening pacing."
+    }
+  },
+  "speakers": {
+    "Narrator": {
+      "fill": [255, 224, 130, 255],
+      "outline": [255, 214, 102, 225],
+      "tag": null
+    },
+    "Fox": {
+      "fill": [255, 196, 112, 255],
+      "outline": [255, 178, 92, 225],
+      "tag": "Little Fox",
+      "tag_bg": [255, 186, 98, 248],
+      "tag_fg": [42, 20, 8, 255]
+    },
+    "Owl": {
+      "fill": [150, 222, 255, 255],
+      "outline": [130, 206, 255, 225],
+      "tag": "Grandpa Owl",
+      "tag_bg": [130, 206, 255, 248],
+      "tag_fg": [18, 28, 42, 255]
+    }
+  },
+  "pages": [
+    {
+      "page_id": "p01",
+      "animated": false,
+      "ken_burns": "in",
+      "image_prompt": "Children's picture book illustration, vertical 9:16, warm moonlight over a cozy forest cabin, a little orange fox holding a glowing paper lantern at the doorstep, soft painterly plush textures, one clear focal action.",
+      "refs": ["assets/scene_forest.png", "assets/cast_height_chart.png"],
+      "lines": [
+        {
+          "line_id": "01",
+          "speaker": "Narrator",
+          "en": "Click! The paper lantern glows softly under the silver moon.",
+          "zh": "咔哒！小纸灯笼在银色月光下轻轻亮了起来。",
+          "sfx": {
+            "file": "audio/foley/chime.wav",
+            "offset_sec": -0.2,
+            "gain": 0.25
+          }
+        },
+        {
+          "line_id": "02",
+          "speaker": "Fox",
+          "en": "Look, Grandpa Owl! My lantern is ready!",
+          "zh": "快看，猫头鹰爷爷！我的灯笼准备好啦！"
+        }
+      ]
+    },
+    {
+      "page_id": "p02",
+      "animated": true,
+      "clip_duration_target": 6,
+      "ip_sensitive_for_veo": false,
+      "silent_guard": true,
+      "ken_burns": "out",
+      "image_prompt": "Medium shot vertical 9:16 storybook frame, the little fox gently swings the glowing lantern while fireflies drift up through mossy pines, warm golden rim light.",
+      "motion_prompt": "Storybook animation, medium shot, golden fireflies float gently upward around the little fox holding a warm lantern, slow subtle camera push-in. Audio: soft crickets and gentle breeze.",
+      "lines": [
+        {
+          "line_id": "03",
+          "speaker": "Owl",
+          "en": "Hold it steady, little fox. Let us follow the quiet trail.",
+          "zh": "拿稳了哦，小狐狸。我们顺着安静的小路走吧。"
+        }
+      ]
+    },
+    {
+      "page_id": "p03",
+      "animated": false,
+      "ken_burns": "in",
+      "hold_tail_sec": 3.5,
+      "recap_phrases": [
+        "My lantern is ready!",
+        "Hold it steady.",
+        "Goodnight, forest."
+      ],
+      "image_prompt": "Cozy storybook wide shot vertical 9:16, the little fox and owl resting on a mossy log looking at starry skies, soft blue-amber twilight palette.",
+      "lines": [
+        {
+          "line_id": "04",
+          "speaker": "Narrator",
+          "en": "Safe and warm beneath the stars. Goodnight, forest.",
+          "zh": "在星空下安心又温暖。晚安，小森林。"
+        }
+      ]
+    }
+  ]
+}
