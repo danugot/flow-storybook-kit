@@ -50,7 +50,7 @@ Born out of running real production episodes on Google Flow: after burning ~1,00
 Requires **Python 3.9+** and **FFmpeg** (`brew install ffmpeg` on macOS, `sudo apt-get install ffmpeg` on Ubuntu).
 
 ```bash
-git clone https://github.com/<your-username>/flow-storybook-kit.git
+git clone https://github.com/danugot/flow-storybook-kit.git
 cd flow-storybook-kit
 
 python3 -m venv .venv

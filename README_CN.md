@@ -25,7 +25,7 @@
 前置依赖：**Python 3.9+** 与 **FFmpeg**（macOS 执行 `brew install ffmpeg`，Ubuntu 执行 `sudo apt-get install ffmpeg`）。
 
 ```bash
-git clone https://github.com/<your-username>/flow-storybook-kit.git
+git clone https://github.com/danugot/flow-storybook-kit.git
 cd flow-storybook-kit
 
 python3 -m venv .venv
